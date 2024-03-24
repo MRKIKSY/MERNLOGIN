@@ -6,7 +6,7 @@ const Dashboard = () => {
     const navigate = useNavigate()
     axios.defaults.withCredentials = true;
     useEffect(() => {
-        axios.get('http://localhost:3000/auth/verify')
+        axios.get('https://polar-spire-61357-5869512552cd.herokuapp.com/auth/verify')
         .then(res=> {
             if(res.data.status) {
 
