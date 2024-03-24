@@ -12,7 +12,7 @@ const Signup = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    Axios.post("http://localhost:3000/auth/signup", {
+    Axios.post("https://polar-spire-61357-5869512552cd.herokuapp.com/auth/signup", {
       username,
       email,
       password,
